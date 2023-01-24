@@ -1,0 +1,218 @@
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Final - Inscreve a tua equipa/Jogador</title>
+</head>
+<body>
+  <script
+  src="https://code.jquery.com/jquery-3.6.3.min.js"
+  integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+  crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="silhueta-de-tres-cabecas-de-tigre_147069-729.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+          RYT.GG</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a href="index.html"><button class="btn btn-dark" aria-expanded="false">Início</button></a>
+                </button>
+                </ul>
+                <li class="nav-item dropdown">
+                  <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    Equipas
+                  </button>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="inscrever.html">Inscrever - Equipa</a></li>
+                    <li><a class="dropdown-item" href="procurar.html">Procurar - Equipa</a></li>
+                  </li>
+                 </ul>
+                 <li class="nav-item dropdown">
+                 <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Torneios
+                 </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="criar.html">Criar - Torneio</a></li>
+                <li><a class="dropdown-item" href="procurar.html">Procurar - Torneio</a></li>
+                </li>
+              </ul>
+              <li class="nav-item dropdown">
+                <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+               Jogadores
+                </button>
+               <ul class="dropdown-menu dropdown-menu-dark">
+               <li><a class="dropdown-item" href="inscrever.html">Inscrever - Jogador</a></li>
+               <li><a class="dropdown-item" href="procurar.html">Procurar - Procurar</a></li>
+               </li>
+              </ul>
+              </div>
+        </div>
+      </nav>
+  <div class="container">
+    <form action="rowvg-3">
+      <div class="card" style="padding: 15px">
+        <h1>Inscrever Equipa</h1>
+        <hr>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Nome da Equipa</label>
+          <input type="text" class="form-control" id="inputPassword4">
+        </div>
+        <hr>
+        <div class="col-md-6">
+          <Label>Logo da equipa/Foto dos Jogadores:</Label> 
+          <br>
+          <input type="file">
+        </div>
+        <hr>
+        <div class="table table-responsive">
+            <table class="table table-responsive table-striped">
+              <thead class="table-light">
+                    <th>Nome</th>
+                    <Th>Lane</Th>
+                    <th>Idade</th>
+                    <th>Nacionalidade</th>
+                    <th>Rank</th>
+              </thead>
+                <tr>
+                    <td contenteditable></td>
+                    <td contenteditable></td>
+                    <td contenteditable></td>
+                    <td contenteditable></td>
+                    <td contenteditable></td>
+                </tr>
+                <tr>
+                    <td contenteditable></td>
+                    <td contenteditable></td>
+                    <td contenteditable></td>
+                    <td contenteditable></td>
+                    <td contenteditable></td>
+                </tr>
+                <tr>
+                    <td contenteditable></td>
+                    <td contenteditable></td>
+                    <td contenteditable></td>
+                    <td contenteditable></td>
+                    <td contenteditable></td>
+                </tr>
+                <tr>
+                    <td contenteditable></td>
+                    <td contenteditable></td>
+                    <td contenteditable></td>
+                    <td contenteditable></td>
+                    <td contenteditable></td>
+                </tr>
+                <tr>
+                    <td contenteditable></td>
+                    <td contenteditable></td>
+                    <td contenteditable></td>
+                    <td contenteditable></td>
+                    <td contenteditable></td>
+                </tr>
+            </table>
+          </table> 
+        </div>
+        <hr>
+        <div class="col-md-6">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label for="gridCheck">Confirmo que todos os jogadores são maiores de 16 anos.</label>
+        </div>
+        <hr>
+        <input type="submit" onclick="alert('Equipa Registrada com Sucesso!')" value="Registrar Equipa" class="registerbtn">
+      </div>
+    </form>
+  <hr>
+    <div class="card" style="padding: 15px">
+      <h1>Inscrever Jogador</h1>
+      <form class="row g-3">
+          <div class="row">
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Nome</label>
+              <input type="text" class="form-control" id="inputPassword4" placeholder="Colocar Nome">
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Sobrenome</label>
+              <input type="text" class="form-control" id="inputPassword4" placeholder="Colocar Sobrenome">
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-md-12">
+              <label for="email"><b>Email</b></label>
+              <input type="text" class="form-control" placeholder="Inserir Email" name="email" id="email" required>
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Nickname</label>
+              <input type="text" class="form-control" id="inputPassword4" placeholder="Colocar Nickname">
+            </div>
+            <div class="col-md-6">
+              <label for="inputState" class="form-label">Rank</label>
+              <select id="inputState" class="select-disabled form-select">
+                <option selected>Indica o Teu rank</option>
+                <option>Bronze</option>
+                <option>Silver</option>
+                <option>Gold</option>
+                <option>Platinum</option>
+                <option>Diamond</option>
+                <option>Master</option>
+                <option>GrandMaster</option>
+                <option>Challenger</option>
+              </select>
+            </div>
+          </div>
+              <hr>
+          <div class="row">
+            <div class="col-md-6">
+              <label for="inputState" class="form-label">Rota principal</label>
+              <select id="inputState" class="select-disabled form-select">
+                    <option selected>Escolhe a tua Rota Principal</option>
+                    <option>Top</option>
+                    <option>Jungle</option>
+                    <option>Mid</option>
+                    <option>ADC</option>
+                    <option>Sup</option>
+              </select>
+            </div>
+            <div class="col-md-6">
+              <label for="inputState" class="form-label">Rota Secundária</label>
+              <select id="inputState" class="select-disabled form-select">
+                  <option selected>Escolhe a tua Rota Secundária</option>
+                  <option>Top</option>
+                  <option>Jungle</option>
+                  <option>Mid</option>
+                  <option>ADC</option>
+                  <option>Sup</option>
+              </select>
+            </div>
+          </div>
+          <hr>
+          <div class="col-md-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck2">
+              <label class="form-check-label" for="gridCheck2">
+                Tens mais de 16 anos?
+              </label>
+              <hr>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <input type="submit" onclick="alert('Registo de Jogador Bem Sucedido')" value="Registar Jogador" class="registerbtn">
+          </div>
+        </div>
+        </form>
+      <hr>
+    </div>
+  </div>
+    </body>
+</html>

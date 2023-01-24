@@ -1,0 +1,80 @@
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Final - Inscreve a tua equipa/Jogador</title>
+</head>
+<body>
+  <script
+  src="https://code.jquery.com/jquery-3.6.3.min.js"
+  integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+  crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="silhueta-de-tres-cabecas-de-tigre_147069-729.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+          RYT.GG</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a href="index.html"><button class="btn btn-dark" aria-expanded="false">Início</button></a>
+                </button>
+                </ul>
+                <li class="nav-item dropdown">
+                  <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    Equipas
+                  </button>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="inscrever.html">Inscrever - Equipa</a></li>
+                    <li><a class="dropdown-item" href="procurar.html">Procurar - Equipa</a></li>
+                  </li>
+                 </ul>
+                 <li class="nav-item dropdown">
+                 <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Torneios
+                 </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="criar.html">Criar - Torneio</a></li>
+                <li><a class="dropdown-item" href="procurar.html">Procurar - Torneio</a></li>
+                </li>
+              </ul>
+              <li class="nav-item dropdown">
+                <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+               Jogadores
+                </button>
+               <ul class="dropdown-menu dropdown-menu-dark">
+               <li><a class="dropdown-item" href="inscrever.html">Inscrever - Jogador</a></li>
+               <li><a class="dropdown-item" href="procurar.html">Procurar - Procurar</a></li>
+               </li>
+              </ul>
+              </div>
+        </div>
+    </nav>
+    <div class="container">
+      <div class="card" style="padding: 15px">
+      <div class="col-md-12">
+        <h1>Criar Torneio</h1>
+        <hr>
+            <label>Escolhe a Data do teu Torneio</label>
+            <br>
+            <input type="date">
+            <hr>
+            <label> Nome do Torneio </label>
+            <input type="text" class="form-control" placeholder="Inserir Nome do Torneio">
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Detalhes do Torneio</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              <hr>
+              <input type="submit" onclick="alert('Torneio Registado com Sucesso')" value="Registar Torneio" class="registerbtn">
+            </div>
+    </div>      
+  </div> 
+</body>
+</html>
